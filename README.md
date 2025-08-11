@@ -7,9 +7,9 @@ This repository contains the implementation of my research project **"MiniLM mod
 ## Overview
 
 Duplicate questions clutter Q&A platforms like Quora, making it harder to retrieve precise answers.  
-We address this by enhancing the **MiniLM** transformer model with a **custom self-attention mechanism** to improve semantic understanding and context capture in question pairs.
+This is addressed by enhancing the **MiniLM** transformer model with a **custom self-attention mechanism** to improve semantic understanding and context capture in question pairs.
 
-Our approach integrates:
+Approach:
 - **Multi-head self-attention**
 - **Layer normalization**
 - **Feedforward neural network layers**
@@ -34,7 +34,7 @@ This augmentation boosts MiniLM’s capacity to capture complex relationships be
 
 ## 📊 Dataset
 
-We use the **Quora Question Pairs** dataset from [Kaggle](https://www.kaggle.com/datasets/quora/question-pairs-dataset) containing **404,351** labeled question pairs.
+**Quora Question Pairs** dataset from [Kaggle](https://www.kaggle.com/datasets/quora/question-pairs-dataset) containing **404,351** labeled question pairs.
 
 | Column       | Description                                          |
 |--------------|------------------------------------------------------|
