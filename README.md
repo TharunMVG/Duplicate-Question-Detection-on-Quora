@@ -1,4 +1,4 @@
-# MiniLM + Self-Attention for Duplicate Question Detection (Quora)
+# MiniLM + Self-Attention for Semantically Similar Question Detection on Q&A platforms
 
 This repository contains the implementation of my research project **"MiniLM model incorporated with a self-attention mechanism for duplicate question detection on the Quora Q&A platform"**, carried out as part of the **Centre for Data Science and Applied Machine Learning (CDSAML)** at PES University.
 
