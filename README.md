@@ -11,7 +11,7 @@ This is addressed by enhancing the **MiniLM** transformer model with a **self-at
 This augmentation boosts MiniLM’s capacity to capture complex relationships between tokens, leading to significant performance gains in duplicate question detection.
 
 **Final Result:**  
-90.59% accuracy** on the Quora Duplicate Questions dataset  
+90.59% accuracy on the Quora Duplicate Questions dataset  
 ---
 
 ## Key Features:
