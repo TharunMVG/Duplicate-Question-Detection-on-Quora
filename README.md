@@ -38,7 +38,7 @@ This augmentation boosts MiniLM’s capacity to capture complex relationships be
 | `is_duplicate` | 1 if duplicate, 0 otherwise                         |
 ---
 
-## 📈 Results
+## Results
 
 | Model                          | Accuracy  |
 |--------------------------------|-----------|
