@@ -7,7 +7,7 @@ This repository contains the implementation of my research project **"MiniLM mod
 ## Overview
 
 Duplicate questions clutter Q&A platforms like Quora, making it harder to retrieve precise answers.  
-This is addressed by enhancing the **MiniLM** transformer model with a **custom self-attention mechanism** to improve semantic understanding and context capture in question pairs.
+This is addressed by enhancing the **MiniLM** transformer model with a **self-attention mechanism** to improve semantic understanding and context capture in question pairs.
 
 Approach:
 - **Multi-head self-attention**
@@ -18,8 +18,6 @@ This augmentation boosts MiniLM’s capacity to capture complex relationships be
 
 **Final Result:**  
 ✅ **90.59% accuracy** on the Quora Duplicate Questions dataset  
-✅ Improved robustness and interpretability compared to baseline MiniLM
-
 ---
 
 ## 🛠️ Key Features
@@ -68,11 +66,9 @@ This augmentation boosts MiniLM’s capacity to capture complex relationships be
 
 | Model                          | Accuracy  |
 |--------------------------------|-----------|
-| LSTM                           | 76.10%    |
-| BiLSTM                         | 72.50%    |
-| BERT                           | 83.53%    |
-| RoBERTa                        | 89.06%    |
-| MiniLM                         | 70.71%    |
-| **MiniLM + Self-Attention**    | **90.59%**|
+| LSTM                           | 69.92%    |
+| BiLSTM                         | 71.98%    |
+| BERT                           | 80.47%    |
+| **MiniLM + Self-Attention**    | **90.54%**|
 
 
